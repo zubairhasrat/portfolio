@@ -6,8 +6,12 @@ const About = () => {
             <div className="my-auto" >
                 <img src={Logo} className="img-fluid mb-3" alt=""/>
                 <h2 className="mb-0 text-primary">Zubair Ahmed</h2>
-                <div className="subheading mb-5 text-white">SOFTWARE ENGINNER AT <a href="https://bitbytes.io/" target="blank">BITBYTES</a></div>
-                <p className="mb-5 text-white" style={{maxWidth: '500px'}} >I am Full Stack Web developer having divers set of skills. I am currently working mostly javascrip stake (Reactjs, Vuejs, and Nodejs).</p>
+                <div className="subheading mb-5 text-white">WEB DEVELOPER AT <a href="https://bitbytes.io/" target="blank">BITBYTES</a></div>
+                <p className="mb-5 text-white" style={{maxWidth: '500px'}} >
+                    I'm the Full stack Web Developer for Bitbytes in Lahore. 
+                    I have serious passion for Web Development, Mobile development and creating intuitive, dynamic user experiences. 
+                    Let's make something special.
+                </p>
                 <ul className="list-inline list-social-icons mb-0">
                     <li className="list-inline-item">
                         <a href="https://web.facebook.com/itszubairahmed" target="blank">

@@ -9,10 +9,12 @@ const HTML = (props) => {
                 name="viewport"
                 content="width=device-width, initial-scale=1, shrink-to-fit=no"
                 />
-                <script
-                    src="https://code.jquery.com/jquery-3.4.0.min.js"
-                    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
-                    crossoOrigin="anonymous"></script>
+                <script src="./static/js/jquery/jquery.min.js"></script>
+                <script src="./static/js/bootstrap/bootstrap.bundle.min.js"></script>
+                <script src="./static/js/jquery-easing/jquery.easing.min.js"></script>
+                <script src="./static/js/counter/jquery.waypoints.min.js"></script>
+                <script src="./static/js/counter/jquery.counterup.min.js"></script>
+                <script src="./static/js/custom.js"></script>
                 {props.headComponents}
             </head>
             <body {...props.bodyAttributes}>
@@ -26,13 +28,6 @@ const HTML = (props) => {
                 dangerouslySetInnerHTML={{ __html: props.body }}
                 />
                 {props.postBodyComponents}
-                
-                <script src="./static/js/jquery/jquery.min.js"></script>
-                <script src="./static/js/bootstrap/bootstrap.bundle.min.js"></script>
-                <script src="./static/js/jquery-easing/jquery.easing.min.js"></script>
-                <script src="./static/js/counter/jquery.waypoints.min.js"></script>
-                <script src="./static/js/counter/jquery.counterup.min.js"></script>
-                <script src="./static/js/custom.js"></script>
             </body>
         </html>
     )

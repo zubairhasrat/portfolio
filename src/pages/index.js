@@ -10,7 +10,7 @@ import Awards from '../components/Awards';
 const IndexPage = () => (
   <Layout>
     <About/>
-    <Experience/>
+    {/* <Experience/> */}
     <Portfolio/>
     <Skills/>
     <Awards/>
