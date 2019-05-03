@@ -5,3 +5,7 @@
  */
 
 // You can delete this file if you're not using it
+// import 'static/js/bootstrap/bootstrap.bundle.min';
+import 'bootstrap';
+import 'jquery'
+// import './src/static/js/custom.js'

@@ -1,18 +1,18 @@
 import React, { Fragment } from 'react';
-import P1 from '../../static/img/portfolio/p-1.jpg';
-import P2 from '../../static/img/portfolio/p-2.jpg';
-import P3 from '../../static/img/portfolio/p-3.jpg';
-import P4 from '../../static/img/portfolio/p-4.jpg';
-import P5 from '../../static/img/portfolio/p-5.jpg';
-import P6 from '../../static/img/portfolio/p-6.jpg';
-import P7 from '../../static/img/portfolio/p-7.jpg';
-import P8 from '../../static/img/portfolio/p-8.jpg';
-import P9 from '../../static/img/portfolio/p-9.jpg';
+import Laravel1 from '../../static/img/portfolio/laravel-1.png';
+import Laravel2 from '../../static/img/portfolio/laravel-2.jpeg';
+import vue1 from '../../static/img/portfolio/vue-1.jpeg';
+import vue2 from '../../static/img/portfolio/vue-2.jpeg';
+import vue3 from '../../static/img/portfolio/vue-3.jpeg';
+import vue4 from '../../static/img/portfolio/vue-4.jpeg';
+import react1 from '../../static/img/portfolio/react-1.jpeg';
+import react2 from '../../static/img/portfolio/react-2.png';
+import react3 from '../../static/img/portfolio/react-3.png';
 
 const Modals = () => {
     return(
         <Fragment>
-            <div className="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" >
+            <div className="portfolio-modal modal fade" id="vuePortfolio1" tabindex="-1" role="dialog" aria-hidden="true" >
                 <div className="modal-dialog" role="document">
                     <div className="modal-content">
                         <div className="close-modal" data-dismiss="modal">
@@ -31,7 +31,7 @@ const Modals = () => {
                                         </div>
                                         <div className="row">
                                             <div className="col-md-6">
-                                            <img className="img-fluid img-centered" src={P1} alt=""/>
+                                            <img className="img-fluid img-centered" src={vue1} alt=""/>
                                             </div>
                                             <div className="col-md-6">
                                             <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
@@ -63,7 +63,7 @@ const Modals = () => {
                     </div>
                 </div>
                 </div>
-                <div className="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+                <div className="portfolio-modal modal fade" id="vuePortfolio2" tabindex="-1" role="dialog" aria-hidden="true">
                     <div className="modal-dialog" role="document">
                         <div className="modal-content">
                             <div className="close-modal" data-dismiss="modal">
@@ -82,7 +82,7 @@ const Modals = () => {
                                         </div>
                                         <div className="row">
                                         <div className="col-md-6">
-                                            <img className="img-fluid img-centered" src={P2} alt=""/>
+                                            <img className="img-fluid img-centered" src={vue2} alt=""/>
                                         </div>
                                         <div className="col-md-6">
                                             <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
@@ -114,7 +114,7 @@ const Modals = () => {
                         </div>
                     </div>
                 </div>
-                <div className="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+                <div className="portfolio-modal modal fade" id="vuePortfolio3" tabindex="-1" role="dialog" aria-hidden="true">
                     <div className="modal-dialog" role="document">
                         <div className="modal-content">
                             <div className="close-modal" data-dismiss="modal">
@@ -133,7 +133,7 @@ const Modals = () => {
                                         </div>
                                         <div className="row">
                                         <div className="col-md-6">
-                                            <img className="img-fluid img-centered" src={P3} alt=""/>
+                                            <img className="img-fluid img-centered" src={vue2} alt=""/>
                                         </div>
                                         <div className="col-md-6">
                                             <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
@@ -165,7 +165,7 @@ const Modals = () => {
                         </div>
                     </div>
                 </div>
-                <div className="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+                <div className="portfolio-modal modal fade" id="vuePortfolio4" tabindex="-1" role="dialog" aria-hidden="true">
                     <div className="modal-dialog" role="document">
                         <div className="modal-content">
                             <div className="close-modal" data-dismiss="modal">
@@ -184,7 +184,7 @@ const Modals = () => {
                                         </div>
                                         <div className="row">
                                         <div className="col-md-6">
-                                            <img className="img-fluid img-centered" src={P4} alt=""/>
+                                            <img className="img-fluid img-centered" src={vue4} alt=""/>
                                         </div>
                                         <div className="col-md-6">
                                             <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
@@ -216,7 +216,7 @@ const Modals = () => {
                         </div>
                     </div>
                 </div>
-                <div className="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+                <div className="portfolio-modal modal fade" id="reactPortfolio1" tabindex="-1" role="dialog" aria-hidden="true">
                     <div className="modal-dialog" role="document">
                         <div className="modal-content">
                             <div className="close-modal" data-dismiss="modal">
@@ -235,7 +235,7 @@ const Modals = () => {
                                         </div>
                                         <div className="row">
                                         <div className="col-md-6">
-                                            <img className="img-fluid img-centered" src={P5} alt=""/>
+                                            <img className="img-fluid img-centered" src={react1} alt=""/>
                                         </div>
                                         <div className="col-md-6">
                                             <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
@@ -267,7 +267,7 @@ const Modals = () => {
                         </div>
                     </div>
                 </div>
-                <div className="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+                <div className="portfolio-modal modal fade" id="reactPortfolio2" tabindex="-1" role="dialog" aria-hidden="true">
                     <div className="modal-dialog" role="document">
                         <div className="modal-content">
                             <div className="close-modal" data-dismiss="modal">
@@ -286,7 +286,7 @@ const Modals = () => {
                                         </div>
                                         <div className="row">
                                         <div className="col-md-6">
-                                            <img className="img-fluid img-centered" src={P6} alt=""/>
+                                            <img className="img-fluid img-centered" src={react2} alt=""/>
                                         </div>
                                         <div className="col-md-6">
                                             <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
@@ -318,7 +318,7 @@ const Modals = () => {
                         </div>
                     </div>
                 </div>    
-                <div className="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+                <div className="portfolio-modal modal fade" id="laravelPortfolio1" tabindex="-1" role="dialog" aria-hidden="true">
                     <div className="modal-dialog" role="document">
                         <div className="modal-content">
                             <div className="close-modal" data-dismiss="modal">
@@ -337,7 +337,7 @@ const Modals = () => {
                                         </div>
                                         <div className="row">
                                         <div className="col-md-6">
-                                            <img className="img-fluid img-centered" src={P7} alt=""/>
+                                            <img className="img-fluid img-centered" src={Laravel1} alt=""/>
                                         </div>
                                         <div className="col-md-6">
                                             <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
@@ -369,7 +369,7 @@ const Modals = () => {
                         </div>
                     </div>
                 </div>
-                <div className="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+                <div className="portfolio-modal modal fade" id="laravelPortfolio2" tabindex="-1" role="dialog" aria-hidden="true">
                     <div className="modal-dialog" role="document">
                         <div className="modal-content">
                             <div className="close-modal" data-dismiss="modal">
@@ -388,7 +388,7 @@ const Modals = () => {
                                         </div>
                                         <div className="row">
                                         <div className="col-md-6">
-                                            <img className="img-fluid img-centered" src={P8} alt=""/>
+                                            <img className="img-fluid img-centered" src={Laravel2} alt=""/>
                                         </div>
                                         <div className="col-md-6">
                                             <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
@@ -420,7 +420,7 @@ const Modals = () => {
                         </div>
                     </div>
                 </div>
-                <div className="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+                <div className="portfolio-modal modal fade" id="laravelPortfolio3" tabindex="-1" role="dialog" aria-hidden="true">
                     <div className="modal-dialog" role="document">
                         <div className="modal-content">
                             <div className="close-modal" data-dismiss="modal">
@@ -439,7 +439,7 @@ const Modals = () => {
                                         </div>
                                         <div className="row">
                                         <div className="col-md-6">
-                                            <img className="img-fluid img-centered" src={P9} alt=""/>
+                                            <img className="img-fluid img-centered" src={vue2} alt=""/>
                                         </div>
                                         <div className="col-md-6">
                                             <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>

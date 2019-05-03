@@ -8,7 +8,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
-import { Link } from "gatsby";
 import '../static/css/bootstrap/bootstrap.min.css';
 import '../static/font-awesome/css/font-awesome.min.css';
 import '../static/css/devicons/css/devicons.min.css';

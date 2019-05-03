@@ -21,9 +21,9 @@ const Header = ({ siteTitle }) => (
                         <li className="nav-item">
                             <a className="nav-link js-scroll-trigger" href="#about">About</a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link js-scroll-trigger" href="#experience">Experience</a>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
                         </li>
@@ -32,6 +32,9 @@ const Header = ({ siteTitle }) => (
                         </li>
                         <li className="nav-item">
                             <a className="nav-link js-scroll-trigger" href="#awards">Awards</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
